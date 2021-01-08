@@ -1,5 +1,6 @@
 // import UseState from './components/useState'
-import UseEffect from './components/useEffect'
+// import UseEffect from './components/useEffect'
+import UseContext from './components/useContext'
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       {/* <UseState /> */}
 
       {/* Learning useEffect */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+
+      {/* Learning useContext */}
+      <UseContext />
     </div>
   );
 }
