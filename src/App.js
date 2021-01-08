@@ -1,11 +1,15 @@
-import UseState from './components/useState'
+// import UseState from './components/useState'
+import UseEffect from './components/useEffect'
 
 function App() {
   return (
     <div className="App">
       hello react!
       {/* Learning useState */}
-      <UseState />
+      {/* <UseState /> */}
+
+      {/* Learning useEffect */}
+      <UseEffect />
     </div>
   );
 }
